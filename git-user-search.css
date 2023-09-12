@@ -1,0 +1,85 @@
+img{
+    max-width: 100%;
+}
+
+/* card css */
+.cardWidth {
+    max-width: 620px;
+}
+#card-div {
+    background: #1f2a48;
+    color: #fff;
+}
+.img-div {
+    display: flex;
+    justify-content: center;
+}
+#user-img {
+    width: 60%;
+}
+#followers {
+    background: #141c2f;
+}
+#followers-pic {
+    display: flex;
+    justify-content: space-evenly;
+}
+#followers-pic a {
+    width: 17%;
+}
+#extra-info {
+    display: flex;
+    font-size: 13px;
+    color: gainsboro;
+    justify-content: space-between;
+}
+#extra-info p {
+    margin-bottom: 7px;
+}
+
+/*  */
+#info {
+    display: flex;
+    justify-content: space-between;
+}
+#info p {
+    margin: 0;
+}
+
+#info a, #extra-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* error */
+
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('https://i.imgur.com/GnyDvKN.png');
+    border: 1px solid;
+    margin: 10px 0px;
+    padding: 15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    margin: 3% auto;
+}
+
+/* responsive */
+
+@media(max-width: 768px){
+    #user-img {
+        width: 36%;
+    }
+}
+@media(max-width: 500px){
+    .cardWidth {
+        max-width: 550px;
+    }
+    #extra-info {
+        font-size: 11px;
+    }
+    #title {
+        font-size: 22px;
+    }
+}
